@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #d1d1d1;
+  background-image: url("js.png");
   text-align: center;
   display:flex-box;
   
@@ -8,6 +8,12 @@ body {
 
 form {
   margin: 20px 5px;
+}
+.container{
+  display: flex;
+  height: max-content;
+  width: max-content;
+
 }
 
 input[type="text"] {

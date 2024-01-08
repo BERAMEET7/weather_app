@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="{% static 'style.css' %}">
 </head>
 <body>
+  <div class="container">
 <h2>Compare Weather of Two Cities</h2><hr width="500px"/>
 <form method="post">
   {% csrf_token %}
@@ -28,6 +29,6 @@
     </div>
   {% endif %}
 </div>
-
+</div>
 </body>
 </html>
