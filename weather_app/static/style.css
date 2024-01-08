@@ -1,20 +1,25 @@
 body {
   font-family: Arial, sans-serif;
-  background-image: url("js.png");
+  background-image: url("dmitry-smirnov-DtLbZvIjEx4-unsplash.jpg");
   text-align: center;
-  display:flex-box;
-  
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+.container{
+  width: max-content;
+  background: transparent;
+  backdrop-filter: blur(3px);
+  background-color: rgba(266, 266, 266, 0.7);
+  border-radius: 10px;
 }
 
 form {
   margin: 20px 5px;
 }
-.container{
-  display: flex;
-  height: max-content;
-  width: max-content;
 
-}
 
 input[type="text"] {
   padding: 5px;
